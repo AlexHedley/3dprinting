@@ -38,6 +38,7 @@
           "images/**",
           "articles/images/**",
           "articles/**/images/**",
+          "articles/**/*.stl",
           "supplies/images/**",
           "supplies/**/images/**"
         ]
