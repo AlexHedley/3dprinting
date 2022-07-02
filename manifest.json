@@ -24,7 +24,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "JxpC17X3V30h7lboqrlyIQ=="
+          "hash": "CpEtEOQy4RSgSKYJTMJ8Zg=="
         }
       },
       "is_incremental": false,
@@ -36,7 +36,41 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+          "hash": "zRdbXDD7q6w/4HXPSLQxJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/vinyl_stand/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/vinyl_stand/README.html",
+          "hash": "6m15OltciAxooTv9rkq6RQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vinyl_stand/images/jh_vinyl.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vinyl_stand/images/jh_vinyl.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vinyl_stand/jh_vinyl_stand.stl",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vinyl_stand/jh_vinyl_stand.stl"
         }
       },
       "is_incremental": false,
@@ -70,7 +104,77 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "O8ZRr9uwY9+pMuHY+uZdWw=="
+          "hash": "V2JsWoXA+puTh4nGhSbAig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "supplies/filament.md",
+      "output": {
+        ".html": {
+          "relative_path": "supplies/filament.html",
+          "hash": "ENe734Jek062gXRxAu+36g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "supplies/images/anycubic-mega-s-1-pc-285641-en.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "supplies/images/anycubic-mega-s-1-pc-285641-en.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "supplies/images/filament-clear.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "supplies/images/filament-clear.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "supplies/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "supplies/intro.html",
+          "hash": "h7bbnAgY+wjQKH6vmIhIaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "supplies/printer.md",
+      "output": {
+        ".html": {
+          "relative_path": "supplies/printer.html",
+          "hash": "mOLMt8g4Ade0fxV9f2eawg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "supplies/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "supplies/toc.html",
+          "hash": "4UEI6PgwVBg2He5BDgtu4Q=="
         }
       },
       "is_incremental": false,
@@ -82,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "CQgyD9ortJnnGLrFvo1M2w=="
+          "hash": "2PhBkl5ACFQrZY8Y3zsoeQ=="
         }
       },
       "is_incremental": false,
@@ -100,11 +204,10 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 7,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
@@ -114,10 +217,11 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 3,
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
