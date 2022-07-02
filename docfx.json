@@ -37,6 +37,7 @@
         "files": [
           "images/**",
           "articles/images/**",
+          "articles/**/*.stl",
           "articles/**/images/**",
           "supplies/images/**",
           "supplies/**/images/**"

@@ -2,3 +2,5 @@
   href: intro.md
 - name: Pog Stand
   href: pogstand/README.md
+- name: Vinyl Stand
+  href: vinyl_stand/README.md
